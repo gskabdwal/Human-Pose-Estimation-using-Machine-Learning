@@ -34,7 +34,7 @@ o	Hardware-dependent processing speed (not optimized for low-end devices).
 o	Limited to single-person pose estimation.
 
 
-Technologies Used:
+## Technologies Used:
 - Streamlit
 - OpenCV
 - Numpy
