@@ -21,8 +21,9 @@ inHeight = height
 
 net = cv2.dnn.readNetFromTensorflow("graph_opt.pb")
 
-thres = 0.2
+thres = 0.05
 
+# cap = cv2.VideoCapture(0) 
 cap = cv2.VideoCapture("run1.mp4")
 
 def pose_estimation(cap):
